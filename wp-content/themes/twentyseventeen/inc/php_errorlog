@@ -1,0 +1,3 @@
+[06-Dec-2018 05:15:26 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/playaren/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 199
+[06-Dec-2018 06:02:54 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/playaren/public_html/wp-content/themes/twentyseventeen/inc/template-tags.php on line 199
+[06-Dec-2018 19:30:50 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/playaren/public_html/wp-content/themes/twentyseventeen/inc/icon-functions.php on line 22

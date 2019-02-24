@@ -1,0 +1,5 @@
+[02-Dec-2018 03:43:57 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/wprentals/404.php on line 3
+[04-Dec-2018 14:47:39 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/wprentals/404.php on line 3
+[04-Dec-2018 14:47:43 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/wprentals/archive.php on line 5
+[13-Dec-2018 12:18:40 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/wprentals/index.php on line 4
+[15-Dec-2018 01:08:47 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/wprentals/index.php on line 4

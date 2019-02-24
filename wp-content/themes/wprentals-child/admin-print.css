@@ -1,0 +1,12 @@
+@media print {
+	
+	#adminmenumain, #wpadminbar, #screen-meta-links, .tablenav, p.search-box {
+		display:none;
+		
+	}
+	#wpcontent, #wpfooter {
+	margin-left: 0;
+	}
+	body {background: #FFF}
+	
+}

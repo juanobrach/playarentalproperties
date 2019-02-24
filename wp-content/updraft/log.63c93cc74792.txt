@@ -1,0 +1,260 @@
+0000.000 (0) Opened log file at time: Wed, 04 Jul 2018 01:56:29 +0000 on https://prp.webdesignplaya.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 5.6.36 (cgi-fcgi, Linux siteground235.com 3.12.18-clouder0 #20 SMP Mon Feb 26 12:15:53 EET 2018 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 64.4M | 64.8M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 538927.6 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.014 (0) Semaphore (fd, wp4s_options) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.017 (0) Set semaphore last lock (fd) time to 2018-07-04 01:56:29
+0000.017 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=63c93cc74792, begun at=1530669389 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1530669689) in case this run gets aborted
+0000.028 (0) Checking if we have a zip executable available
+0000.029 (0) Testing: /usr/bin/zip
+0000.034 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.036 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.037 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.044 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.049 (0) Working binary zip found: /usr/bin/zip
+0000.050 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.051 (0) Creation of backups of directories: beginning
+0000.053 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.156 (0) Total entities for the zip file: 615 directories, 5483 files (0 skipped as non-modified), 66.3 MB
+0000.159 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.161 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.163 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.165 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.168 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.168 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 5483 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.287 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 1.00 MB
+0000.291 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 600 files added (on-disk size: 998.2 KB)
+0000.293 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 700 files added (on-disk size: 998.2 KB)
+0000.296 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 800 files added (on-disk size: 998.2 KB)
+0000.298 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 900 files added (on-disk size: 998.2 KB)
+0000.300 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1000 files added (on-disk size: 998.2 KB)
+0000.301 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 5483 files batched, 501 (1002) added so far); re-opening (prior size: 998.2 KB)
+0000.787 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 3.80 MB
+0000.792 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1100 files added (on-disk size: 3843 KB)
+0000.794 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1200 files added (on-disk size: 3843 KB)
+0000.796 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1300 files added (on-disk size: 3843 KB)
+0000.798 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1400 files added (on-disk size: 3843 KB)
+0000.800 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1500 files added (on-disk size: 3843 KB)
+0000.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 5483 files batched, 501 (1503) added so far); re-opening (prior size: 3843 KB)
+0001.181 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 6.00 MB
+0001.185 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1600 files added (on-disk size: 6109.6 KB)
+0001.188 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1700 files added (on-disk size: 6109.6 KB)
+0001.190 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1800 files added (on-disk size: 6109.6 KB)
+0001.192 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 1900 files added (on-disk size: 6109.6 KB)
+0001.194 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2000 files added (on-disk size: 6109.6 KB)
+0001.195 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 5483 files batched, 501 (2004) added so far); re-opening (prior size: 6109.6 KB)
+0001.637 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 8.60 MB
+0001.641 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2100 files added (on-disk size: 8761.7 KB)
+0001.643 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2200 files added (on-disk size: 8761.7 KB)
+0001.646 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2300 files added (on-disk size: 8761.7 KB)
+0001.648 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2400 files added (on-disk size: 8761.7 KB)
+0001.650 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2500 files added (on-disk size: 8761.7 KB)
+0001.651 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.5 MB, 5483 files batched, 501 (2505) added so far); re-opening (prior size: 8761.7 KB)
+0002.264 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 12.80 MB
+0002.269 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2600 files added (on-disk size: 13101.9 KB)
+0002.271 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2700 files added (on-disk size: 13101.9 KB)
+0002.273 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2800 files added (on-disk size: 13101.9 KB)
+0002.275 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 2900 files added (on-disk size: 13101.9 KB)
+0002.277 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3000 files added (on-disk size: 13101.9 KB)
+0002.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 5483 files batched, 501 (3006) added so far); re-opening (prior size: 13101.9 KB)
+0002.418 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3100 files added (on-disk size: 14073.5 KB)
+0002.421 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3200 files added (on-disk size: 14073.5 KB)
+0002.425 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3300 files added (on-disk size: 14073.5 KB)
+0002.428 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3400 files added (on-disk size: 14073.5 KB)
+0002.431 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3500 files added (on-disk size: 14073.5 KB)
+0002.432 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 5483 files batched, 501 (3507) added so far); re-opening (prior size: 14073.5 KB)
+0002.653 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: size is now: 17.20 MB
+0002.657 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3600 files added (on-disk size: 17625.2 KB)
+0002.659 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3700 files added (on-disk size: 17625.2 KB)
+0002.662 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3800 files added (on-disk size: 17625.2 KB)
+0002.664 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 3900 files added (on-disk size: 17625.2 KB)
+0002.666 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4000 files added (on-disk size: 17625.2 KB)
+0002.666 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 5483 files batched, 501 (4008) added so far); re-opening (prior size: 17625.2 KB)
+0003.115 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4100 files added (on-disk size: 20656.7 KB)
+0003.119 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4200 files added (on-disk size: 20656.7 KB)
+0003.123 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4300 files added (on-disk size: 20656.7 KB)
+0003.127 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4400 files added (on-disk size: 20656.7 KB)
+0003.131 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4500 files added (on-disk size: 20656.7 KB)
+0003.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 5483 files batched, 501 (4509) added so far); re-opening (prior size: 20656.7 KB)
+0003.375 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4600 files added (on-disk size: 21480 KB)
+0003.379 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4700 files added (on-disk size: 21480 KB)
+0003.383 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4800 files added (on-disk size: 21480 KB)
+0003.386 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 4900 files added (on-disk size: 21480 KB)
+0003.390 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 5000 files added (on-disk size: 21480 KB)
+0003.390 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 5483 files batched, 501 (5010) added so far); re-opening (prior size: 21480 KB)
+0003.650 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 5100 files added (on-disk size: 22303 KB)
+0003.653 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 5200 files added (on-disk size: 22303 KB)
+0003.655 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 5300 files added (on-disk size: 22303 KB)
+0003.657 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip.tmp: 5400 files added (on-disk size: 22303 KB)
+0004.069 (0) Created plugins zip (0) - 23194.2 KB in 4 s (5788.2 KB/s) (sha1: 0fdddffde18c2a86b12be7d2c035164f80746d19, sha256: 0e0858d0d5350a3db53fb707a992934782d6c7729dabbc7909106fb99971bad8)
+0004.071 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.105 (0) Total entities for the zip file: 92 directories, 1120 files (0 skipped as non-modified), 46.3 MB
+0004.107 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.110 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.112 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.114 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.116 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1120 files batched, 492 (492) added so far); re-opening (prior size: 0 KB)
+0004.437 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: size is now: 17.60 MB
+0004.441 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20304.7 KB/s)
+0004.442 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2716779708862, normalised_time=1.2607944898864, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=124751814)
+0004.443 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 500 files added (on-disk size: 18019.2 KB)
+0004.445 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 600 files added (on-disk size: 18019.2 KB)
+0004.447 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 700 files added (on-disk size: 18019.2 KB)
+0004.449 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 800 files added (on-disk size: 18019.2 KB)
+0004.451 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 900 files added (on-disk size: 18019.2 KB)
+0004.453 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.9 MB, 1120 files batched, 501 (993) added so far); re-opening (prior size: 18019.2 KB)
+0004.858 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: size is now: 32.50 MB
+0004.861 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 1000 files added (on-disk size: 33266.6 KB)
+0004.863 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip.tmp: 1100 files added (on-disk size: 33266.6 KB)
+0005.301 (0) Created themes zip (0) - 34962.2 KB in 1.2 s (28672 KB/s) (sha1: 3b20da4b09e753737ffacce06a1104be96d792fb, sha256: c7f2e16537a43eef5450090fb459936be299350d0bb6b684e2592c1bf87b051e)
+0005.303 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.303 (0) Looking for candidates to back up in: /home/webdesi0/public_html/prp/wp-content/uploads
+0005.304 (0) finding files: js_composer: adding to list (1)
+0005.304 (0) finding files: 2018: adding to list (2)
+0005.305 (0) finding files: revslider: adding to list (3)
+0005.305 (0) finding files: smile_fonts: adding to list (4)
+0005.306 (0) finding files: sucuri: adding to list (5)
+0005.306 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.334 (0) Total entities for the zip file: 167 directories, 278 files (0 skipped as non-modified), 4.1 MB
+0005.337 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.339 (0) Zip: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.517 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-uploads.zip.tmp: size is now: 3.00 MB
+0005.575 (0) Created uploads zip (0) - 3065.3 KB in 0.3 s (11854.5 KB/s) (sha1: faaa869e18cf3b200c3b3b751db0b0524ab1fdbd, sha256: f83acb59c258aa2f70cf73f31cd6e4a7733deaf42f329b7c39edf9bfa4867c09)
+0005.577 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.577 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.578 (0) Looking for candidates to back up in: /home/webdesi0/public_html/prp/wp-content
+0005.578 (0) finding files: index.php: adding to list (1)
+0005.579 (0) finding files: plugins: skipping: this is the plugins directory
+0005.579 (0) finding files: cache: skipping: excluded by options
+0005.580 (0) finding files: themes: skipping: this is the themes directory
+0005.580 (0) finding files: updraft: skipping: this is the updraft directory
+0005.581 (0) finding files: uploads: skipping: this is the uploads directory
+0005.581 (0) finding files: upgrade: skipping: excluded by options
+0005.592 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0005.599 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-others.zip.tmp: size is now: 0.00 MB
+0005.603 (0) Created others zip (0) - 0.2 KB in 0 s (15.8 KB/s) (sha1: e2428d259d2b28dfb3d5ce1982107fb1da2ace3d, sha256: 8edda30d230ba8e1ed8e4025637fc46c6aca866a564b8071c90cde6558be83c4)
+0005.606 (0) Saving backup status to database (elements: 8)
+0005.608 (0) Beginning creation of database dump (WordPress DB)
+0005.609 (0) Testing: /usr/bin/mysqldump
+0006.007 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp4s_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1209 bytes total)
+0006.043 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0006.198 (0) Table wp4s_options: Total expected rows (approximate): 464
+0006.363 (0) Table wp4s_options: Total rows added: 525 in 0.16 seconds
+0006.366 (0) Table wp4s_options: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_options.table.gz - 58.8 KB)
+0006.371 (0) Table wp4s_users: Total expected rows (approximate): 0
+0006.415 (0) Table wp4s_users: Total rows added: 2 in 0.04 seconds
+0006.416 (0) Table wp4s_users: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_users.table.gz - 0.6 KB)
+0006.508 (0) Table wp4s_usermeta: Total expected rows (approximate): 39
+0006.545 (0) Table wp4s_usermeta: Total rows added: 39 in 0.04 seconds
+0006.546 (0) Table wp4s_usermeta: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_usermeta.table.gz - 1.7 KB)
+0006.639 (0) Table wp4s_commentmeta: Total expected rows (approximate): 0
+0006.681 (0) Table wp4s_commentmeta: Total rows added: 0 in 0.04 seconds
+0006.682 (0) Table wp4s_commentmeta: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_commentmeta.table.gz - 0.4 KB)
+0006.728 (0) Table wp4s_comments: Total expected rows (approximate): 0
+0006.770 (0) Table wp4s_comments: Total rows added: 1 in 0.04 seconds
+0006.771 (0) Table wp4s_comments: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_comments.table.gz - 0.7 KB)
+0006.777 (0) Table wp4s_links: Total expected rows (approximate): 0
+0006.818 (0) Table wp4s_links: Total rows added: 0 in 0.04 seconds
+0006.819 (0) Table wp4s_links: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_links.table.gz - 0.4 KB)
+0006.840 (0) Table wp4s_postmeta: Total expected rows (approximate): 378
+0006.891 (0) Table wp4s_postmeta: Total rows added: 381 in 0.05 seconds
+0006.893 (0) Table wp4s_postmeta: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_postmeta.table.gz - 3.6 KB)
+0006.899 (0) Table wp4s_posts: Total expected rows (approximate): 24
+0007.067 (0) Table wp4s_posts: Total rows added: 25 in 0.17 seconds
+0007.068 (0) Table wp4s_posts: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_posts.table.gz - 2.4 KB)
+0007.097 (0) Table wp4s_term_relationships: Total expected rows (approximate): 3
+0007.135 (0) Table wp4s_term_relationships: Total rows added: 3 in 0.04 seconds
+0007.137 (0) Table wp4s_term_relationships: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_term_relationships.table.gz - 0.4 KB)
+0007.142 (0) Table wp4s_term_taxonomy: Total expected rows (approximate): 18
+0007.177 (0) Table wp4s_term_taxonomy: Total rows added: 18 in 0.03 seconds
+0007.178 (0) Table wp4s_term_taxonomy: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_term_taxonomy.table.gz - 0.6 KB)
+0007.242 (0) Table wp4s_termmeta: Total expected rows (approximate): 0
+0007.278 (0) Table wp4s_termmeta: Total rows added: 0 in 0.03 seconds
+0007.279 (0) Table wp4s_termmeta: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_termmeta.table.gz - 0.4 KB)
+0007.284 (0) Table wp4s_terms: Total expected rows (approximate): 18
+0007.320 (0) Table wp4s_terms: Total rows added: 18 in 0.04 seconds
+0007.321 (0) Table wp4s_terms: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_terms.table.gz - 0.6 KB)
+0007.326 (0) Table wp4s_ewwwio_images: Total expected rows (approximate): 7
+0007.364 (0) Table wp4s_ewwwio_images: Total rows added: 7 in 0.04 seconds
+0007.365 (0) Table wp4s_ewwwio_images: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_ewwwio_images.table.gz - 0.9 KB)
+0007.387 (0) Table wp4s_loginizer_logs: Total expected rows (approximate): 1
+0007.423 (0) Table wp4s_loginizer_logs: Total rows added: 1 in 0.04 seconds
+0007.424 (0) Table wp4s_loginizer_logs: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_loginizer_logs.table.gz - 0.4 KB)
+0007.429 (0) Table wp4s_revslider_css: Total expected rows (approximate): 109
+0007.471 (0) Table wp4s_revslider_css: Total rows added: 109 in 0.04 seconds
+0007.472 (0) Table wp4s_revslider_css: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_css.table.gz - 4.9 KB)
+0007.541 (0) Table wp4s_revslider_layer_animations: Total expected rows (approximate): 0
+0007.580 (0) Table wp4s_revslider_layer_animations: Total rows added: 0 in 0.04 seconds
+0007.582 (0) Table wp4s_revslider_layer_animations: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_layer_animations.table.gz - 0.3 KB)
+0007.588 (0) Table wp4s_revslider_navigations: Total expected rows (approximate): 0
+0007.632 (0) Table wp4s_revslider_navigations: Total rows added: 0 in 0.04 seconds
+0007.633 (0) Table wp4s_revslider_navigations: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_navigations.table.gz - 0.3 KB)
+0007.639 (0) Table wp4s_revslider_sliders: Total expected rows (approximate): 0
+0007.682 (0) Table wp4s_revslider_sliders: Total rows added: 0 in 0.04 seconds
+0007.683 (0) Table wp4s_revslider_sliders: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_sliders.table.gz - 0.3 KB)
+0007.699 (0) Table wp4s_revslider_slides: Total expected rows (approximate): 0
+0007.743 (0) Table wp4s_revslider_slides: Total rows added: 0 in 0.04 seconds
+0007.744 (0) Table wp4s_revslider_slides: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_slides.table.gz - 0.3 KB)
+0007.755 (0) Table wp4s_revslider_static_slides: Total expected rows (approximate): 0
+0007.929 (0) Table wp4s_revslider_static_slides: Total rows added: 0 in 0.17 seconds
+0007.929 (0) Table wp4s_revslider_static_slides: finishing file (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_static_slides.table.gz - 0.3 KB)
+0007.932 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_options.table.gz (1/20): adding to final database dump
+0007.947 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_users.table.gz (2/20): adding to final database dump
+0007.948 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_usermeta.table.gz (3/20): adding to final database dump
+0007.949 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_commentmeta.table.gz (4/20): adding to final database dump
+0007.950 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_comments.table.gz (5/20): adding to final database dump
+0007.951 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_links.table.gz (6/20): adding to final database dump
+0007.951 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_postmeta.table.gz (7/20): adding to final database dump
+0007.955 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_posts.table.gz (8/20): adding to final database dump
+0007.956 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_term_relationships.table.gz (9/20): adding to final database dump
+0007.957 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_term_taxonomy.table.gz (10/20): adding to final database dump
+0007.958 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_termmeta.table.gz (11/20): adding to final database dump
+0007.958 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_terms.table.gz (12/20): adding to final database dump
+0007.959 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_ewwwio_images.table.gz (13/20): adding to final database dump
+0007.960 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_loginizer_logs.table.gz (14/20): adding to final database dump
+0007.961 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_css.table.gz (15/20): adding to final database dump
+0007.963 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_layer_animations.table.gz (16/20): adding to final database dump
+0007.964 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_navigations.table.gz (17/20): adding to final database dump
+0007.964 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_sliders.table.gz (18/20): adding to final database dump
+0007.965 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_slides.table.gz (19/20): adding to final database dump
+0007.966 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db-table-wp4s_revslider_static_slides.table.gz (20/20): adding to final database dump
+0007.966 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db.gz: finished writing out complete database file (48 KB)
+0007.971 (0) Total database tables backed up: 20 (backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db.gz, size: 75177, sha256)
+0007.975 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0007.975 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0007.976 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0007.977 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-others.zip: others: This file has not yet been successfully uploaded: will queue
+0007.977 (0) backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db.gz: db: This file has not yet been successfully uploaded: will queue
+0007.978 (0) Saving backup history. Total backup size: 59.9 MB
+0007.979 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0007.982 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.982 (0) No remote despatch: user chose no remote backup service
+0007.984 (0) Recording as successfully uploaded: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-plugins.zip (45eca2502bf751f7413fc7f0977f5fce)
+0007.987 (0) Recording as successfully uploaded: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-themes.zip (992e7e9968807c05be4b57432470db6f)
+0007.990 (0) Recording as successfully uploaded: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-uploads.zip (5444d7aa632ca19e5728e560d617c69e)
+0007.993 (0) Recording as successfully uploaded: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-others.zip (b4d6a25c6e2a4c8ba306d849b53bea12)
+0007.996 (0) Recording as successfully uploaded: backup_2018-07-04-0156_Playa_Reantal_Propertes_63c93cc74792-db.gz (bea4f63ea51d7d70ad93b6204a161b97)
+0008.000 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.001 (0) Number of backup sets in history: 1; groups (db): 1
+0008.002 (0) Examining (for databases) backup set with group_id=0, nonce=63c93cc74792, datestamp=1530669389 (Jul 04 2018 01:56:29)
+0008.003 (0) This backup set is the backup set just made, so will not be deleted.
+0008.003 (0) Number of backup sets in history: 1; groups (files): 1
+0008.003 (0) Examining (for files) backup set with nonce=63c93cc74792, datestamp=1530669389 (Jul 04 2018 01:56:29)
+0008.003 (0) This backup set is the backup set just made, so will not be deleted.
+0008.004 (0) This backup set is the backup set just made, so will not be deleted.
+0008.004 (0) This backup set is the backup set just made, so will not be deleted.
+0008.004 (0) This backup set is the backup set just made, so will not be deleted.
+0008.005 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.005 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.008 (0) Resume backup (63c93cc74792, 0): finish run
+0008.010 (0) Decremented the semaphore (fd) by 1
+0008.010 (0) Semaphore (fd) unlocked
+0008.011 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.015 (0) No email will/can be sent - the user has not configured an email address.
+0008.015 (0) The backup apparently succeeded and is now complete

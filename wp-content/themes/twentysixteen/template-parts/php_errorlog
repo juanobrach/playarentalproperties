@@ -1,0 +1,2 @@
+[05-Dec-2018 04:31:09 CST6CDT] PHP Fatal error:  Call to undefined function the_ID() in /home/playaren/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11
+[05-Dec-2018 11:47:54 CST6CDT] PHP Fatal error:  Call to undefined function the_ID() in /home/playaren/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11

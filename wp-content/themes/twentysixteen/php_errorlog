@@ -1,0 +1,2 @@
+[09-Feb-2019 03:32:41 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[09-Feb-2019 03:32:48 CST6CDT] PHP Fatal error:  Call to undefined function get_header() in /home/playaren/public_html/wp-content/themes/twentysixteen/404.php on line 10

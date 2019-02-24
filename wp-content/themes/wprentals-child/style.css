@@ -1,0 +1,570 @@
+/*
+Theme Name: WpRentals Child Theme
+Theme URI: http://themeforest.net/user/annapx
+Description: Ultimate WordPress Theme created by WP Estate for accomodation booking. WP Rentals is clean, flexible, fully responsive and retina Ready. Its smart settings allows you to build outstanding renting websites easy and fast.
+Version: 1.01
+Author: wpestate
+Author URI: http://themeforest.net/user/annapx
+Tags: white, one-column, two-columns,left-sidebar, right-sidebar, fluid-layout , custom-menu, theme-options, translation-ready
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template:     wprentals
+Text Domain:  wpestate-child
+-------------------------------------------------------------- */
+
+@import url("../wprentals/style.css");
+
+
+div.message.success_message {
+	width: 100%;
+	display: block;
+	text-align: center;
+	background-color: green;
+	color: white;
+	font-size: 1.5em;
+	padding: 20px;
+	line-height: 1.6em;
+	border-radius: 6px;
+	margin-bottom:30px;
+}
+.agent_contanct_form {
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.header_wrapper {
+	background-color: #FFF;
+}
+#access .current-menu-item > a, #access .current-menu-parent > a, #access .current-menu-ancestor > a {
+	color: #1099b2;
+}
+#search_wrapper_color {
+	background: rgba(255,255,255,0.8);
+	border-radius: 8px;
+}
+.vc_button.wpb_btn-info {
+	background-color: #1099b2;
+	border: none;
+	color: #fff;
+}
+
+.homeTitle {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	top: 5%;
+	font-size: 3em;
+	color: #fff;
+}
+
+#search_wrapper h1, #search_wrapper h2, #search_wrapper h3 {
+	text-align:center;
+}
+#search_wrapper h2 {
+	color:#6fc387;
+}
+h3 {
+	color:#0086be;
+}
+#submit_booking_front_instant, #submit_booking_front, #advanced_submit_widget, #advanced_submit_2_mobile, #advanced_submit_2, #advanced_submit_3 {
+	margin-top: 0px;
+	padding: 13px 15px;
+	color: #fff;
+	background-color: #6fc387;
+	font-size: 16px;
+	font-weight: 600;
+	width: 100%;
+	margin-bottom: 0px;
+	border-radius: 2px;
+	text-align: center;
+}
+.entry-title {
+	margin: 25px 15px 15px 0px;
+}
+#search_wrapper.search_wr_oldtype {
+        height: 88px;
+    }
+
+.similar_listings_wrapper{
+    background:transparent;
+}
+.owner_area_wrapper_sidebar,
+.listing_type_1 .listing_main_image_price,
+.owner-page-wrapper{
+    background-image:none;
+}
+.property_header2 .property_categs .check_avalability:hover,
+.listing_type_1 .check_avalability{
+background-color:transparent!important;
+}
+
+.rateRow {
+	width:100%;
+	display:block;
+	border-bottom: 1px solid #eee;
+}
+.rateRow div {
+	float:left;
+	width:25%;
+	padding: 5px 0;
+}
+.mobile_header {
+	background-color: #fff;
+}
+.mobile_header i {
+	color: #aeaeae;
+}
+.manager-info {
+	text-align:center;
+	margin-bottom:10px;
+}
+a.panel-title {
+	padding: 8px 0 8px 9px;
+	color: #fff;
+	background: #745b32;
+}
+.panel-body {
+	padding: 20px;
+	background: #fff;
+}
+.panel-body.imagebody {
+	padding:0px;
+}
+#view_more_desc {
+	display: block;
+	background: #fff;
+	font-size: 1.3em;
+	padding: 8px;
+	text-align: center;
+	margin-top: 0;
+	border-top: 1px solid #eee;
+}
+.hover_type_4 #access .menu > li:hover > a {
+	background: #1099b2 !important;
+	color: #fff;
+}
+.meta-element-head { 
+display:none;
+}
+body.tax-property_category .header_media, body.tax-property_area .header_media, #listing_main_image_photo {
+	max-height:500px!important;
+}
+.entry-tax {
+	top: 20%;
+}
+#colophon .listing-unit-img-wrapper {
+	max-width: 100%;
+	display: inline-block;
+	float: none;
+	height: auto;
+}
+#colophon .property_listing {
+	border: none;
+	background-color: transparent;
+	display: block;
+	max-width: 100%;
+	min-height: 200px;
+}
+#colophon .property_unit_v3 .price_unit_wrapper {
+	float: none;
+	margin: 0px;
+	text-align: center;
+	position: absolute;
+	background: #1099b2;
+	width: 190px;
+	padding: 10px 0;
+	bottom: 0;
+	top: auto;
+	left: 0;
+}
+#colophon .price_unit {
+	padding: 4px 0px;
+	font-size: 14px;
+	float: none;
+}
+#colophon .title-container {
+	display: block;
+	width: 100%;
+	margin-top: -5px;
+	text-align: center;
+}
+#colophon .title-container a span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+}
+.top-contact {
+	text-align: center;
+	padding: 5px 0;
+	font-size: 1.2em;
+	color:#1099b2;
+}
+.top-contact a {
+	text-decoration: underline!important;
+	color:#1099b2;
+}
+.listingContact {
+	width:100%;
+	display:block;
+	float:none;
+	clear:both;
+	margin-top:20px;
+}
+#videoMute {
+	position: absolute;
+	padding: 8px;
+	background: #fff;
+	z-index: 999;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+footer#colophon {
+	background: #000c40!important;
+}
+footer ul.xoxo {
+	width:100%!important;
+}
+.form-group input, .form-group textarea {
+	width:100%;
+}
+.img_listings_overlay:hover,
+#agent_submit_contact,
+.panel-title-arrow,
+.owner_area_wrapper_sidebar,
+.listing_type_1 .listing_main_image_price,
+.property_listing .tooltip-inner,
+.pack-info .tooltip-inner,
+.pack-unit .tooltip-inner,
+.adv-2-header,
+.check_avalability:hover,
+.property_header2 .property_categs .check_avalability,
+.owner-page-wrapper,
+.calendar-legend-reserved,   
+.featured_div,
+.wpestate_tour .ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.ll-skin-melon td .ui-state-active,
+.ll-skin-melon td .ui-state-hover,
+.price-day,
+.calendar-legend-reserved,
+.calendar-reserved,
+#slider_price_mobile .ui-widget-header,
+#slider_price_sh .ui-widget-header,
+#slider_price .ui-widget-header,
+#slider_price_widget .ui-widget-header,
+.slider_control_left,
+.slider_control_right,   
+.wpestate_accordion_tab .ui-state-active,
+.wpestate_accordion_tab .ui-state-active ,
+.wpestate_accordion_tab .ui-state-active,
+.wpestate_tabs .ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.wpestate_progress_bar.vc_progress_bar .vc_single_bar.bar_blue .vc_bar,
+.wpestate_posts_grid.wpb_teaser_grid .categories_filter li, 
+.wpestate_posts_grid.wpb_categories_filter li,
+.featured_second_line,    
+.presenttw,
+#colophon .social_sidebar_internal a:hover,
+#primary .social_sidebar_internal a:hover ,
+.comment-form #submit,
+.property_menu_item i:hover,
+.ball-pulse > div ,
+.icon-fav-on-remove,
+.share_unit,
+#submit_action:hover,    
+#adv-search-header-mobile,    
+.red,
+.pack-info .tooltip-inner,
+.pack-unit .tooltip-inner,
+.user_mobile_menu_list li:hover,
+.theme-slider-view,
+.listing-hover,
+#wpestate_slider_radius .ui-widget-header,
+.ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-hover, 
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus, 
+.ui-widget-header .ui-state-focus,
+#wp-submit-register, 
+#wp-forgot-but, 
+#wp-login-but, 
+.comment-form #submit, 
+#wp-forgot-but_shortcode, 
+#wp-login-but-wd, 
+#wp-submit-register_wd,
+#advanced_submit_shorcode,
+.search_dashborad_header .wpestate_vc_button,
+#submit_mess_front,
+.modal-content #wp-forgot-but_mod,
+#imagelist .uploaded_images i,
+#aaiu-uploader ,
+#aaiu-uploader:hover,
+#send_sms_pin,
+#send_sms_pin:hover,
+#validate_phone,
+#validate_phone:hover,
+.user_dashboard_panel_guide .active:after,
+.user_dashboard_panel_guide .guide_past:before,
+.user_dashboard_panel_guide .guide_past:after,
+.mess_send_reply_button, #change_pass, #update_profile, 
+#book_dates, 
+#aaiu-uploader,
+#wp-submit-register_wd_mobile,
+#wp-forgot-but_mobile,
+#wp-login-but-wd-mobile,
+#set_price_dates,
+.action1_booking,
+.generate_invoice,
+#add_inv_expenses,
+#add_inv_discount,
+#book_dates,
+#allinone_set_custom,
+#edit_prop_ammenities,
+#edit_calendar,
+#edit_prop_locations,
+#google_capture,
+#edit_prop_details,
+#edit_prop_image,
+#edit_prop_price,
+#edit_prop_1, 
+#form_submit_1, 
+#submit_mess_front, 
+.modal-content #wp-login-but,
+#wp-login-but_sh,
+#wp-submit-register_sh,
+#delete_profile,
+#user-id-uploader{
+    background-color: #6fc387!important;
+}
+
+.user_mobile_menu_list li:hover, .mobilex-menu li:hover,
+.double-bounce1, .double-bounce2,
+.unread_mess_wrap_menu,
+.property_unit_v3 .price_unit_wrapper{
+  background-color: #6fc387;
+}
+
+.search_wr_type3 .col-md-6.property_price label,
+.property_header2 .property_categs .check_avalability:hover,
+.pack-name,.user_dashboard_links a:hover i,
+.property_ratings_agent i, .property_ratings i,
+.prop_pricex,.property_unit_v2 .price_unit,
+.wpestate_recent_tweets .item:after,
+.panel-title:hover,
+.blog_featured.type_1_class:hover .blog-title-link, .places_wrapper.type_1_class:hover .featured_listing_title, .featured_property .property_listing:hover .featured_listing_title,
+.signuplink:hover,#submit_action:hover,.category_details_wrapper a:hover ,
+.agent-flex:hover .agent-title-link,
+.property_flex:hover .listing_title_unit,
+#amount_wd,
+#amount, 
+#amount_sh,
+.more_list:hover,
+.single-content p a:hover,
+#contact_me_long_owner:hover, #contact_me_long:hover,
+#view_more_desc,
+input[type="checkbox"]:checked:before,
+.user_dashboard_panel_guide .active,
+.hover_type_4 .signuplink:hover,
+.hover_type_3 .signuplink:hover{
+    color: #6fc387!important;
+}
+
+#submit_action:hover,
+.property_ratings_agent .owner_total_reviews,
+.property_ratings_agent i,.property_menu_item_title,
+.owner_contact_details .property_menu_item, 
+.owner_contact_details .property_menu_item a {
+    color: #fff!important;
+}
+.mobile-trigger-user:hover i, .mobile-trigger:hover i,
+.carousel-control-theme-prev:hover, .carousel-control-theme-next:hover,
+.hover_price,
+#user_terms_register_topbar_link:hover,
+#amount_mobile,
+#amount_sh,
+#amount_wd,
+#amount,
+.front_plan_row:hover,
+.delete_search:hover,
+.wpestate_posts_grid .vc_read_more,
+.featured_article:hover h2 a,
+.featured_article:hover .featured_article_right,
+.user_dashboard_listed a,
+.pack-listing-title,
+.user_dashboard_links .user_tab_active i,
+.idx-price,
+#infobox_title:hover,
+.info_details a:hover,
+.contact_info_details h2,
+#colophon .widget-container li:hover:before,
+#colophon .widget-container li:hover,
+#colophon .widget-container li:hover a,
+.compare_item_head .property_price,
+.adv_extended_options_text:hover,
+#adv_extended_options_show_filters,
+.show_filters,
+.adv_extended_options_text,
+#showinpage,
+#contactinfobox,
+.company_headline a:hover i,
+#primary .contact_sidebar_wrap p:hover a,
+#colophon .contact_sidebar_wrap p:hover a,
+.twitter_wrapper a,
+.twitter_time,
+.wpestate_recent_tweets .item:after,
+.widget_nav_menu .sub-menu li:hover a,
+.widget_nav_menu  .sub-menu li:hover,
+.top_bar .social_sidebar_internal a:hover,
+.agent_unit_social_single a:hover,
+.price_area,
+i.checkon,
+.listing_main_image_price ,
+.meta-info a:hover,
+.blog_unit_back:hover .blog-title-link,
+#colophon .category_name a:hover,
+.icon-fav,
+.share_unit a:hover,
+.share_list,
+.listing_unit_price_wrapper,
+.property_listing:hover .listing_title_unit,
+.icon_selected,
+#grid_view:hover,
+#list_view:hover,
+#user_menu_open  > a:hover i, 
+#user_menu_open  > a:focus i,
+.menu_user_tools,
+.user_menu,
+.breadcrumb a:hover,
+.breadcrumb .active,
+.slider-content .read_more,
+.slider-title h2 a:hover,
+ a:hover, a:focus,
+ .custom_icon_class_icon,
+ .property_unit_v3 .property-rating,
+ .no_link_details i,
+ #infoguest.custom_infobox_icon i, 
+ #inforoom.custom_infobox_icon i{
+    color: #6fc387;
+}
+
+.property_flex:hover .blog_unit_back,
+.property_flex:hover .property_listing,
+.listing_type_1 .check_avalability,
+.check_avalability,
+.menu_user_picture,      
+.theme-slider-view,
+.scrollon,
+#submit_action{
+    border-color: #6fc387 ;
+}
+
+.share_unit:after{
+    border-top: 8px solid  #6fc387;
+}
+.agentpict{
+    border-bottom: 3px solid #6fc387;
+}
+
+#adv_extended_options_show_filters,
+.show_filters,
+.testimonial-image{
+    border: 2px solid #6fc387;
+}
+
+.user_dashboard_links a:hover i,
+.user_dashboard_links a:hover,
+.edit_class, .user_dashboard_links .user_tab_active{
+    border-left-color: #6fc387;
+}
+
+blockquote{
+    border-left:5px solid #6fc387;
+}
+
+.wpestate_tabs .ui-widget-header {
+   border-bottom: 2px solid #6fc387;
+}
+
+.booking-calendar-wrapper-in .end_reservation,
+.all-front-calendars .end_reservation,
+.ll-skin-melon .ui-datepicker td.freetobook.end_reservation{
+   
+    background: #fff9f9; 
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-45deg,  #6fc387 0%, #6fc387 49%, #ffffff 50%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6fc387), color-stop(49%,#6fc387), color-stop(50%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#ffffff 50%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#ffffff 50%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#ffffff 50%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #6fc387 0%,#6fc387 49%,#ffffff 50%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#6fc387, endColorstr=#ffffff,GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+.ll-skin-melon .ui-datepicker .ui-state-disabled.end_reservation{
+    background: #fff9f9; 
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-45deg,  #6fc387 0%, #6fc387 49%, #F8F8F8 50%, #F8F8F8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6fc387), color-stop(49%,#6fc387), color-stop(50%,#F8F8F8), color-stop(100%,#F8F8F8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#F8F8F8 50%,#F8F8F8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#F8F8F8 50%,#F8F8F8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #6fc387 0%,#6fc387 49%,#F8F8F8 50%,#F8F8F8 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #6fc387 0%,#6fc387 49%,#F8F8F8 50%,#F8F8F8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#6fc387, endColorstr=#ffffff,GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+}
+
+
+
+.booking-calendar-wrapper-in .calendar-reserved.start_reservation ,
+.all-front-calendars  .calendar-reserved.start_reservation ,
+.ll-skin-melon .ui-datepicker td.calendar-reserved.start_reservation{   
+    /*  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%,#6fc387), color-stop(50%,#fff))!important;    */
+   background: #fff9f9; /* Old browsers */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmOWY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I4ODFmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-45deg,  #ffffff 0%, #ffffff 50%, #6fc387 51%, #6fc387 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(51%,#6fc387), color-stop(100%,#6fc387)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#ffffff 50%,#6fc387 51%,#6fc387 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #ffffff 0%,#ffffff 50%,#6fc387 51%,#6fc387 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #ffffff 0%,#ffffff 50%,#6fc387 51%,#6fc387 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #ffffff 0%,#ffffff 50%,#6fc387 51%,#6fc387 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#6fc387,GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.ll-skin-melon .ui-datepicker .ui-state-disabled.start_reservation{
+    /*  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%,#6fc387), color-stop(50%,#fff))!important;    */
+   background: #fff9f9; /* Old browsers */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmOWY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjYjg4MWZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I4ODFmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-45deg,  #6fc387 0%, #6fc387 50%, #6fc387 51%, #6fc387 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#6fc387), color-stop(50%,#6fc387), color-stop(51%,#6fc387), color-stop(100%,#6fc387)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #6fc387 0%,#6fc387 50%,#6fc387 51%,#6fc387 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #6fc387 0%,#6fc387 50%,#6fc387 51%,#6fc387 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #6fc387 0%,#6fc387 50%,#6fc387 51%,#6fc387 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #6fc387 0%,#6fc387 50%,#6fc387 51%,#6fc387 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#6fc387,GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+}
+@media only screen and (max-width: 1140px) {
+    .rateRow div {
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+}
+@supports (-ms-ime-align:auto) {
+    .wpestate_header_video {
+        height: auto!important;
+        min-height: 450px!important;
+    }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .wpestate_header_video {
+        height: auto!important;
+        min-height: 450px!important;
+    }
+}
+
+/*Overrides*/
+body.page-id-5564 .adv-search-3 {
+	display:none;
+}
