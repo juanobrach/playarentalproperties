@@ -331,3 +331,6 @@ function save_ratesMeta(){
   }
 add_action('save_post', 'save_ratesMeta');
 
+
+// Edit booking from admin functions
+include dirname( __FILE__ ) . '/libs/booking.php';

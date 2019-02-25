@@ -212,7 +212,8 @@ endif;
 ////////////////////////////////////////////////////////////////////////////////
 // custom action on save
 ////////////////////////////////////////////////////////////////////////////////
-
+// DEPRECTAED, USING CHILD THEME LIBS/BOOKING.PHP FUNCTION. BE CAREFULL WHEN UPDATE THIS THEME
+/*
 
 add_action('save_post', 'estate_save_booking_postdata', 99);
 if( !function_exists('estate_save_booking_postdata') ):
@@ -240,13 +241,14 @@ if( !function_exists('estate_save_booking_postdata') ):
         
         
     }
-endif;
+endif;*/
 
 
 ////////////////////////////////////////////////////////////////////////////////
 // save array with bookng dates
 ////////////////////////////////////////////////////////////////////////////////
-if (!function_exists("wpestate_get_booking_dates")):
+// DEPRECTAED, USING CHILD THEME LIBS/BOOKING.PHP FUNCTION. BE CAREFULL WHEN UPDATE THIS THEME
+/*if (!function_exists("wpestate_get_booking_dates")):
 function wpestate_get_booking_dates($listing_id){
     $args=array(
         'post_type'        => 'wpestate_booking',
@@ -318,7 +320,7 @@ function wpestate_get_booking_dates($listing_id){
     
 }
 
-endif;
+endif;*/
 
 
 
