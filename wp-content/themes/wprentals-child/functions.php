@@ -334,3 +334,6 @@ add_action('save_post', 'save_ratesMeta');
 
 // Edit booking from admin functions
 include dirname( __FILE__ ) . '/libs/booking.php';
+
+// Custom search functions for advance search results ( fixed orderd by title ASC )
+include dirname( __FILE__ ) . '/libs/search_functions3.php';

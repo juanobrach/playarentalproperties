@@ -37,7 +37,8 @@ if(isset($_GET['is_half'])){
   $is_half = intval($_GET['is_half']);  
 }
 
-$compute        =   wpestate_argumets_builder($_REQUEST,$is_half);
+
+$compute        =   WDP_wpestate_argumets_builder($_REQUEST,$is_half);
  
 $prop_selection =   $compute[0];
 $args           =   $compute[1];
