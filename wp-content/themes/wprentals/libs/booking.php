@@ -37,9 +37,9 @@ endif; // end   wpestate_reate_booking_type
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-// Add booking metaboxes
+// Add booking metaboxes DEPRECATED actually using the script inside /child-theme/libs/booking 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-if( !function_exists('wpestate_add_bookings_metaboxes') ):
+/*if( !function_exists('wpestate_add_bookings_metaboxes') ):
 function wpestate_add_bookings_metaboxes() {	
   add_meta_box(  'estate_booking-sectionid', esc_html__(  'Booking Details', 'wprentals' ), 'wpestate_booking_meta_function', 'wpestate_booking' ,'normal','default');
 }
@@ -73,6 +73,7 @@ function wpestate_booking_meta_function( $post ) {
     // print   ' owner id '.get_post_meta($post->ID, 'owner_id', true);
     $property_id = esc_html(get_post_meta($post->ID, 'booking_id', true)); 
      $property_id = apply_filters( 'wpml_object_id', $property_id, get_post_type($property_id), true );
+
     print'
     <p class="meta-options">
         <label for="booking_listing_name">'.esc_html__( 'Booking Status:','wprentals').' </label>
@@ -125,7 +126,7 @@ function wpestate_booking_meta_function( $post ) {
     print '<script type="text/javascript">
                     //<![CDATA[
                     jQuery(document).ready(function(){
-                        '.wpestate_date_picker_translation("booking_from_date").'
+                        '.wpestate_date_picker_translation("booking_from_date", "$property_id","$post->ID").'
                     });
                     //]]>
                     </script>';
@@ -138,7 +139,7 @@ function wpestate_booking_meta_function( $post ) {
                   </script>';
 
 }
-endif; // end   estate_booking  
+endif; // end   estate_booking  */
 
 
 
