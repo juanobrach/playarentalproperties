@@ -265,7 +265,7 @@ function wpestate_booking_meta_function( $post ) {
                             arr.forEach( function( date){
                                 // populate the array
                                 var checkIn = new Date(date[0]);
-                                checkIn.setDate( checkIn.getDate() + 1  )
+                                checkIn.setDate( checkIn.getDate()  )
 
                                 var checkOut = new Date(date[1]);
                                 for ( checkIn; checkIn <= checkOut ; checkIn.setDate(checkIn.getDate() + 1) ) {
@@ -275,7 +275,7 @@ function wpestate_booking_meta_function( $post ) {
                             var day = date.getDay();
                             var string = jQuery.datepicker.formatDate("yy-mm-dd", date);
                             var isDisabled = ($.inArray(string, dateRange) != -1);
-                            return [day != 0 && !isDisabled];
+                            return [!isDisabled];
                         }
                     },jQuery.datepicker.regional["'.$date_lang_status.'"]).datepicker("widget").wrap(\'<div class="ll-skin-melon"/>\');
                   });
@@ -298,9 +298,10 @@ function wpestate_booking_meta_function( $post ) {
                             arr.forEach( function( date){
                                 // populate the array
                                 var checkIn = new Date(date[0]);
-                                checkIn.setDate( checkIn.getDate() + 2)
-
+                                checkIn.setDate( checkIn.getDate() + 1)
                                 var checkOut = new Date(date[1]); 
+                                checkOut.setDate( checkOut.getDate() + 1)
+
                                 for ( checkIn; checkIn <= checkOut ; checkIn.setDate(checkIn.getDate() + 1) ) {
                                     dateRange.push($.datepicker.formatDate("yy-mm-dd", checkIn));
                                 }
@@ -309,7 +310,7 @@ function wpestate_booking_meta_function( $post ) {
                             var day = date.getDay();
                             var string = jQuery.datepicker.formatDate("yy-mm-dd", date);
                             var isDisabled = ($.inArray(string, dateRange) != -1);
-                            return [day != 0 && !isDisabled];
+                            return [!isDisabled];
                         }
                     },jQuery.datepicker.regional["'.$date_lang_status.'"]).datepicker("widget").wrap(\'<div class="ll-skin-melon"/>\');
                   });
