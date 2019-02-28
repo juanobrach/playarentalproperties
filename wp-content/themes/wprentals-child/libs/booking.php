@@ -249,7 +249,8 @@ function wpestate_booking_meta_function( $post ) {
 
     // We have differents scripts becouse original inputs for datepicker user ID'S and jqueryDatepicker can't have the same instance for differents inputs
 
-    // checkin Datepicker                             
+    // checkin Datepicker  
+    print '<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>';                
     print '<script type="text/javascript">
                   //<![CDATA[
                   jQuery(document).ready(function(){
@@ -264,12 +265,13 @@ function wpestate_booking_meta_function( $post ) {
                             var arr =  JSON.parse(bookings)
                             arr.forEach( function( date){
                                 // populate the array
-                                var checkIn = new Date(date[0]);
-                                checkIn.setDate( checkIn.getDate()  )
-
-                                var checkOut = new Date(date[1]);
-                                for ( checkIn; checkIn <= checkOut ; checkIn.setDate(checkIn.getDate() + 1) ) {
-                                    dateRange.push($.datepicker.formatDate("yy-mm-dd", checkIn));
+                                var checkIn = moment(date[0] );
+                                var checkOut = moment(date[1]  );
+                                var incrementDate  = moment(date[0] );
+                                for ( incrementDate; incrementDate <= checkOut ; incrementDate.add("days", 1) ) {
+                                    if( incrementDate.format() != checkOut.format() ){
+                                        dateRange.push( incrementDate.format("YYYY-MM-DD") );
+                                    }
                                 }
                             })
                             var day = date.getDay();
@@ -292,21 +294,21 @@ function wpestate_booking_meta_function( $post ) {
                             // Bookings arrays for the actual listing [ startDate, endDate];
                             // the data-listings-bookins is populated with the function WDP_get_bookings_from_listings
                             var bookings = jQuery("#listing-bookings").attr("data-listing-bookings");     
-                            console.log(bookings)                   
                             dateRange = [];           // array to hold the range
                             var arr =  JSON.parse(bookings)
                             arr.forEach( function( date){
                                 // populate the array
-                                var checkIn = new Date(date[0]);
-                                checkIn.setDate( checkIn.getDate() + 1)
-                                var checkOut = new Date(date[1]); 
-                                checkOut.setDate( checkOut.getDate() + 1)
+                                var checkIn = moment(date[0]);
+                                var checkOut = moment(date[1]); 
+                                var incrementDate  = moment(date[0]);
 
-                                for ( checkIn; checkIn <= checkOut ; checkIn.setDate(checkIn.getDate() + 1) ) {
-                                    dateRange.push($.datepicker.formatDate("yy-mm-dd", checkIn));
+                                
+                                for ( incrementDate; incrementDate.format() <= checkOut.format(); incrementDate.add("days", 1) ) {
+                                    if(  incrementDate.format() != checkIn.format() ){
+                                        dateRange.push( incrementDate.format("YYYY-MM-DD") );
+                                    }
                                 }
                             })
-                            console.log("here")
                             var day = date.getDay();
                             var string = jQuery.datepicker.formatDate("yy-mm-dd", date);
                             var isDisabled = ($.inArray(string, dateRange) != -1);
